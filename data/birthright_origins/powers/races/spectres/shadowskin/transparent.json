@@ -1,0 +1,7 @@
+{
+    "name": "Transparent",
+    "description": "You have a thin, transparent spiritual membrane for a body.",
+    "hidden": true,
+    "type": "origins:model_color",
+    "alpha": 0.5
+}

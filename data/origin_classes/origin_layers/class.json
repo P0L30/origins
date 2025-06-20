@@ -1,0 +1,20 @@
+{
+    "origins": [
+        "birthright_origins:disable_base_classes/blacksmith",
+        "birthright_origins:disable_base_classes/cleric",
+        "birthright_origins:disable_base_classes/cook",
+        "birthright_origins:disable_base_classes/farmer",
+        "birthright_origins:disable_base_classes/merchant",
+        "birthright_origins:disable_base_classes/rancher",
+        "birthright_origins:disable_base_classes/miner",
+        "birthright_origins:disable_base_classes/rogue",
+        "birthright_origins:disable_base_classes/warrior",
+        "birthright_origins:disable_base_classes/archer",
+        "birthright_origins:disable_base_classes/beastmaster",
+        "birthright_origins:disable_base_classes/lumberjack",
+        "birthright_origins:disable_base_classes/explorer",
+        "birthright_origins:disable_base_classes/nitwit"
+    ],
+    "enabled": true,
+    "replace": true
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Orderly Damage",
+    "description": "You cannot harm your fellow brothers and sisters.",
+    "hidden": true,
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:origin",
+        "origin": "birthright_origins:moralities/chaotic",
+        "layer": "birthright_origins:morality"
+    },
+    "modifier": {
+        "operation": "set_total",
+        "value": 0
+    }
+}

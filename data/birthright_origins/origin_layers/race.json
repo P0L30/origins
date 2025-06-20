@@ -1,0 +1,17 @@
+{
+    "order": 1,
+    "origins": [
+        "birthright_origins:races/mankind",
+        "birthright_origins:races/jungloids",
+        "birthright_origins:races/crabmen",
+        "birthright_origins:races/sunbeing",
+        "birthright_origins:races/moonwraith",
+        "birthright_origins:races/spectres"
+    ],
+    "enabled": true,
+    "name": "Race",
+    "gui_title": {
+        "choose_origin": "Race",
+        "view_origin": "Race"
+    }
+}

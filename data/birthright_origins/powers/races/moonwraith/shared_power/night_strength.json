@@ -1,0 +1,15 @@
+{
+    "name": "Strengthening Day",
+    "description": "You are strengthened by the sun. You do 25% more damage in the day.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:time_of_day",
+        "comparison": ">",
+        "compare_to": 12000
+    },
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.25
+    }
+}

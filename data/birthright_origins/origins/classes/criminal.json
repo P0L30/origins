@@ -1,0 +1,21 @@
+{
+    "name": "Criminal",
+    "description": "Sometimes, jobs require a little bit of muscle - that's where you come in. Need something hauled, protected, or even stolen? You're a jack of all less than legal trades! Just don't get caught, unless you want to spend the next twenty years in a cell, of course.",
+    "powers": [
+        "birthright_origins:classes/criminal/odds_and_ends",
+        "birthright_origins:classes/criminal/odds_and_ends/hunger",
+        "birthright_origins:classes/criminal/odds_and_ends/runner",
+        "birthright_origins:classes/criminal/odds_and_ends/sturdy",
+        "birthright_origins:classes/criminal/friends_in_low_places",
+        "birthright_origins:classes/commons/bazaar_coin",
+        "birthright_origins:classes/criminal/small_time_ruffian",
+        "birthright_origins:classes/criminal/small_time_ruffian/amateur",
+        "birthright_origins:classes/criminal/small_time_ruffian/damage",
+        "birthright_origins:classes/commons/hand_knockback",
+        "birthright_origins:classes/commons/disable_arcane_workbenches"
+    ],
+    "icon": {
+        "item": "minecraft:stone_sword"
+    },
+    "impact": 1
+}

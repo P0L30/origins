@@ -1,0 +1,21 @@
+{
+    "name": "Hand Knockback",
+    "description": "Your bare fists act as if they had knockback I.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:empty"
+        }
+    },
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:add_velocity",
+        "y": 0.75,
+        "z": 0.9,
+        "client": true,
+        "server": true
+    },
+    "cooldown": 1
+}

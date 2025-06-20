@@ -1,0 +1,10 @@
+{
+    "name": "Hunger",
+    "description": "Your hunger drains 15% faster.",
+    "hidden": true,
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.85
+    }
+}

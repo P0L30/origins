@@ -1,0 +1,13 @@
+{
+    "order": 5,
+    "origins": [
+        "birthright_origins:moralities/orderly",
+        "birthright_origins:moralities/chaotic"
+    ],
+    "enabled": true,
+    "name": "Morality",
+    "gui_title": {
+        "choose_origin": "Morality",
+        "view_origin": "Morality"
+    }
+}

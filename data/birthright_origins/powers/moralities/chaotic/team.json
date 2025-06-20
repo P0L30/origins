@@ -1,0 +1,14 @@
+{
+    "name": "Join Chaotic",
+    "hidden": true,
+    "type": "origins:action_on_callback",
+    "execute_chosen_when_orb": true,
+    "entity_action_gained": {
+        "type": "origins:execute_command",
+        "command": "team join chaotic @s"
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "team leave @s"
+    }
+}

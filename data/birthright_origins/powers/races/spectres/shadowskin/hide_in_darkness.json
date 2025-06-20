@@ -1,0 +1,33 @@
+{
+    "name": "Hide In Darkness",
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:brightness",
+                "comparison": "<=",
+                "compare_to": 0.55
+            },
+            {
+                "type": "origins:distance_from_coordinates",
+                "reference": "world_origin",
+                "offset": {
+                    "x": 0,
+                    "y": -32,
+                    "z": 0
+                },
+                "ignore_x": true,
+                "ignore_z": true,
+                "shape": "cube",
+                "scale_reference_to_dimension": false,
+                "round_to_digit": 0,
+                "comparison": "<",
+                "compare_to": 0
+            }
+        ]
+    },
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "render_outline": true
+}

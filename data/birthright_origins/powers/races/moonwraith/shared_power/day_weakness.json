@@ -1,0 +1,15 @@
+{
+    "name": "Weakening Night",
+    "description": "You grow tired and sluggish during the night. You do 25% less damage at night.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:time_of_day",
+        "comparison": "<",
+        "compare_to": 12000
+    },
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -0.25
+    }
+}

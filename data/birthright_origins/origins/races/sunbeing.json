@@ -1,0 +1,17 @@
+{
+    "name": "Sunbeing",
+    "description": "Luminates are very strange beings, with their entire lives being decided depending on whether they were created at day, or night. Whilst stronger than your average human in their respective time, but they too are incredibly weak when in their opposite. Such fickle biology means they are chaotic, changing rapidly each day.\n\nDayborn are known as Sunbeings, people of pure, evanescent light that brightens any day. They are religiously suicidal, eager to sacrifice themselves in martyrdom to a greater cause.",
+    "powers": [
+        "birthright_origins:races/sunbeing/chaotic",
+        "birthright_origins:races/sunbeing/shared_power",
+        "birthright_origins:races/sunbeing/shared_power/day_strength",
+        "birthright_origins:races/sunbeing/shared_power/night_weakness",
+        "birthright_origins:races/sunbeing/shared_power/suicide",
+        "birthright_origins:races/sunbeing/shared_power/aura",
+        "birthright_origins:races/sunbeing/inbuilt_belief"
+    ],
+    "icon": {
+        "item": "kubejs:sunbeings_icon"
+    },
+    "impact": 2
+}

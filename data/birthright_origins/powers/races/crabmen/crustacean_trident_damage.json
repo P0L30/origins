@@ -1,0 +1,20 @@
+{
+    "name": "Crustacean trident damage",
+    "description": "Makes tridents do 25% more damage.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:trident"
+            }
+        }
+    },
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 1.25
+    }
+}

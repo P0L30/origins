@@ -1,0 +1,10 @@
+{
+    "name": "Shared Power",
+    "description": "Moonwraiths can weaken those around with Weakness 1, and are able, much like Sunbeings, to overload themselves, giving wither and slowness 3 to all within 10 blocks, for 15 seconds. They also deal 25% more damage during the night, though can't help turning sluggish and weak during the day, losing 25% attack damage.",
+    "type": "origins:toggle",
+    "active_by_default": true,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "retain_state": true
+}

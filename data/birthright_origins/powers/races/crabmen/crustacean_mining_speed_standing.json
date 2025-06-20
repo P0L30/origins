@@ -1,0 +1,22 @@
+{
+    "name": "Crustacean mining speed standing",
+    "description": "Makes the underwater mining speed while standing the same as on land.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            },
+            {
+                "type": "origins:on_block"
+            }
+        ]
+    },
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 5
+    }
+}

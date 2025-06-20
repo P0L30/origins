@@ -1,0 +1,6 @@
+{
+    "name": "Amateur",
+    "description": "All weapons deal 15% less damage.",
+    "hidden": true,
+    "type": "origins:simple"
+}

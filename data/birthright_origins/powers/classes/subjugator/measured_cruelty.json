@@ -1,0 +1,20 @@
+{
+    "name": "Measured Cruelty",
+    "description": "Should the beast bite the hand that feeds, the hand must retaliate, lest the beast sense weakness. Swinging your bare hands at your enemies causes them to stumble backwards, as if you had knockback one. Using a weapon gets rid of this effect, but instead gives you 25% more knockback.",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:empty"
+        }
+    },
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:add_velocity",
+        "y": 0.2,
+        "z": 0.25,
+        "client": true,
+        "server": true
+    },
+    "cooldown": 1
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Shared Power",
+    "description": "Sunbeings can strengthen those around with Strength I, and are able to overload their sunlit aura to fatally explode into brilliance, giving regeneration and resistance 3 to all within 10 blocks for 15 seconds. They also deal 25% more damage during the day, though can't help turning sluggish and weak during the night, losing 25% attack damage.",
+    "type": "origins:toggle",
+    "active_by_default": true,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "retain_state": true
+}

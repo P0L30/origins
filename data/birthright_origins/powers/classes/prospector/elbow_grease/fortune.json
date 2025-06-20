@@ -1,0 +1,13 @@
+{
+    "name": "Fortune",
+    "description": "You have natural fortune I.",
+    "hidden": true,
+    "type": "apugli:modify_enchantment_level",
+    "enchantment": "minecraft:fortune",
+    "modifiers": [
+        {
+            "operation": "addition",
+            "value": 1
+        }
+    ]
+}

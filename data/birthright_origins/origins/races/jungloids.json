@@ -1,0 +1,16 @@
+{
+    "name": "Jungloids",
+    "description": "Expansion into densely packed jungles and swamps has been mostly unfruitful for all but the most well-armed nations, thanks to the recently born Venuvians within. Mansized plants, a thematic cross between a psychopath and a bloodthirsty fly trap plant. They guard the groves of swamps and jungles with fervour, and do not ever leave their homeland, seeking only to protect it with their plausibly immortal lives.",
+    "powers": [
+        "birthright_origins:races/jungloids/orderly",
+        "birthright_origins:races/jungloids/cruel_mistress",
+        "birthright_origins:races/jungloids/homesick_belief",
+        "birthright_origins:races/jungloids/cruel_mistress/photosynthesis",
+        "birthright_origins:races/jungloids/cruel_mistress/poison_immunity",
+        "birthright_origins:races/jungloids/cruel_mistress/venomous"
+    ],
+    "icon": {
+        "item": "kubejs:jungloids_icon"
+    },
+    "impact": 2
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Moonwraith",
+    "description": "Luminates are very strange beings, with their entire lives being decided depending on whether they were created at day, or night. Whilst stronger than your average human in their respective time, but they too are incredibly weak when in their opposite. Such fickle biology means they are chaotic, changing rapidly each day.\n\nNightborn are known as Moonwraiths, and are beings of pure, bone chilling darkness and murder that eliminate and remove any and all good or joy they can find.",
+    "powers": [
+        "birthright_origins:races/moonwraith/chaotic",
+        "birthright_origins:races/moonwraith/shared_power",
+        "birthright_origins:races/moonwraith/shared_power/night_strength",
+        "birthright_origins:races/moonwraith/shared_power/day_weakness",
+        "birthright_origins:races/moonwraith/shared_power/suicide",
+        "birthright_origins:races/moonwraith/shared_power/aura",
+        "birthright_origins:races/moonwraith/inbuilt_belief"
+    ],
+    "icon": {
+        "item": "kubejs:moonwraiths_icon"
+    },
+    "impact": 2
+}

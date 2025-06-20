@@ -1,0 +1,5 @@
+{
+    "name": "Ethics",
+    "description": "You deal half damage to players of the same moral standing.\n\nYou deal normal damage to players of opposite moral standing.",
+    "type": "origins:simple"
+}

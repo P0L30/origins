@@ -1,0 +1,27 @@
+{
+    "name": "Disable Arcane Workbenches",
+    "description": "You cannot use the Scroll Forge, Arcane Anvil, and Alchemists Cauldron.",
+    "hidden": true,
+    "type": "origins:multiple",
+    "arcane_anvil": {
+        "type": "origins:prevent_block_use",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "irons_spellbooks:arcane_anvil"
+        }
+    },
+    "scroll_forge": {
+        "type": "origins:prevent_block_use",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "irons_spellbooks:scroll_forge"
+        }
+    },
+    "alchemist_cauldron": {
+        "type": "origins:prevent_block_use",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "irons_spellbooks:alchemist_cauldron"
+        }
+    }
+}

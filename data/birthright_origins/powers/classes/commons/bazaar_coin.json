@@ -1,0 +1,10 @@
+{
+    "name": "Bazaar Coin",
+    "description": "You spawn with a Bazaar coin, which holds no monetary value, but showing it to other cut-throats may be the foundation of a lasting business, or even,  a friendship. After all, only other pilferers, thieves and murderers have a Bazaar coin.",
+    "hidden": true,
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "kubejs:bazaar_coin",
+        "amount": 1
+    }
+}

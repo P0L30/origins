@@ -1,0 +1,18 @@
+{
+    "name": "Sellsword",
+    "description": "Unending struggle has forced you into a dangerous life of crime and theft. If the Subjugators don't kill you, the other Sellswords might - this is a cut-throat business, and there's no room for error or morality this far deep.",
+    "powers": [
+        "birthright_origins:classes/sellsword/work_life_ratio",
+        "birthright_origins:classes/sellsword/work_life_ratio/archer",
+        "birthright_origins:classes/sellsword/work_life_ratio/dextrous",
+        "birthright_origins:classes/sellsword/work_life_ratio/horrible_diet",
+        "birthright_origins:classes/sellsword/friends_in_low_places",
+        "birthright_origins:classes/commons/bazaar_coin",
+        "birthright_origins:classes/sellsword/secret_pocket",
+        "birthright_origins:classes/commons/disable_arcane_workbenches"
+    ],
+    "icon": {
+        "item": "minecraft:golden_sword"
+    },
+    "impact": 1
+}

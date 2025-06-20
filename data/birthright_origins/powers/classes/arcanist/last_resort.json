@@ -1,0 +1,9 @@
+{
+    "name": "Last Resort",
+    "description": "As an absolute last resort, should your shop be over-run by ruffians or crooks, you spawn with a novice spelltome - usually uncraftable - to put scrolls within and cast to your hearts content, turning all around you into astral mist and red dust.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "irons_spellbooks:copper_spell_book",
+        "amount": 1
+    }
+}

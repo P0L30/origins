@@ -1,0 +1,21 @@
+{
+    "name": "Crustacean no sinking",
+    "description": "Keeps you from sinking in water.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            },
+            {
+                "inverted": true,
+                "type": "origins:sneaking"
+            }
+        ]
+    },
+    "type": "origins:modify_falling",
+    "velocity": 0,
+    "take_fall_damage": true
+}

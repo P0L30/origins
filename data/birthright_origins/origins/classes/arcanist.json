@@ -1,0 +1,13 @@
+{
+    "name": "Arcanist",
+    "description": "Magic is a fickle thing - far too easily abused for power or domain, and often falls into the wrong hands. You attempt to correct that universal injustice, by producing, and selling, your own magical artefacts, scrolls, and trinkets.",
+    "powers": [
+        "birthright_origins:classes/arcanist/arcane_craftsman",
+        "birthright_origins:classes/arcanist/scrollsmith",
+        "birthright_origins:classes/arcanist/last_resort"
+    ],
+    "icon": {
+        "item": "irons_spellbooks:arcane_essence"
+    },
+    "impact": 2
+}

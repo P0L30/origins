@@ -1,0 +1,20 @@
+{
+    "name": "Crustacean",
+    "description": "Adept to the ocean you can breathe underwater as well as swim and mine underwater faster than those who live on land. Handling tridents comes naturally allowing you to deal 25% extra damage.",
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:water_breathing",
+            "duration": 220,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

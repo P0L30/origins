@@ -1,0 +1,11 @@
+{
+    "name": "Deep Trading License",
+    "description": "You start with a Deep Trading License.",
+    "hidden": true,
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "kubejs:deep_trading_license",
+        "amount": 1,
+        "slot": 8
+    }
+}

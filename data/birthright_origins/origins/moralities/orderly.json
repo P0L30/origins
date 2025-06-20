@@ -1,0 +1,14 @@
+{
+    "name": "Orderly",
+    "description": "You follow the teachings of Order and civilisation. The law must be respected, upheld, and enforced. Those who break the law must be punished.",
+    "powers": [
+        "birthright_origins:moralities/ethics",
+        "birthright_origins:moralities/orderly/orderly",
+        "birthright_origins:moralities/orderly/tag",
+        "birthright_origins:moralities/orderly/team"
+    ],
+    "icon": {
+        "item": "minecraft:blue_wool"
+    },
+    "impact": 0
+}

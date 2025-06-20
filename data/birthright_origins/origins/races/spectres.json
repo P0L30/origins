@@ -1,0 +1,19 @@
+{
+    "name": "Spectres",
+    "description": "Illusions are a shadow of a previous race, now expunged from the records of time. They are unrecognisable, their bodies spindly and inhuman - and it's unclear how they were created, if at all. The common theory is that the original race tried to augment themselves with invisibility, but failed, and somehow swapped places with their shadows.",
+    "powers": [
+        "birthright_origins:races/spectres/chaotic",
+        "birthright_origins:races/spectres/shadowskin",
+        "birthright_origins:races/spectres/shadowskin/glow_on_hit",
+        "birthright_origins:races/spectres/shadowskin/hide_in_darkness",
+        "birthright_origins:races/spectres/shadowskin/nightvision",
+        "birthright_origins:races/spectres/shadowskin/speed_on_hit",
+        "birthright_origins:races/spectres/shadowskin/transparent",
+        "birthright_origins:races/spectres/shadowskin/weak",
+        "birthright_origins:races/spectres/lost_belief"
+    ],
+    "icon": {
+        "item": "kubejs:spectres_icon"
+    },
+    "impact": 1
+}

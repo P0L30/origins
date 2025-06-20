@@ -1,0 +1,14 @@
+{
+    "name": "Archer",
+    "description": "Increases your damage with bows by one heart.",
+    "hidden": true,
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "minecraft:arrow"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 2
+    }
+}

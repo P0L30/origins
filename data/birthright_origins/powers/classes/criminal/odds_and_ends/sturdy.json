@@ -1,0 +1,12 @@
+{
+    "name": "Sturdy",
+    "description": "You're sturdier than most with 12 hearts.",
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 4
+    },
+    "update_health": true
+}

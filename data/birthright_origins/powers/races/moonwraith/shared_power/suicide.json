@@ -1,0 +1,52 @@
+{
+    "name": "Self Sacrifice",
+    "description": "You are able to overload your sunlit aura to fatally explode into brilliance, giving regeneration and resistance 3 to all within 10 blocks for 15 seconds.",
+    "hidden": true,
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "kill @s"
+            },
+            {
+                "type": "origins:area_of_effect",
+                "radius": 10,
+                "bientity_condition": {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:player"
+                    }
+                },
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effects": [
+                            {
+                                "effect": "minecraft:wither",
+                                "duration": 300,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            {
+                                "effect": "minecraft:slowness",
+                                "duration": 300,
+                                "amplifier": 2,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "cooldown": 6000,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

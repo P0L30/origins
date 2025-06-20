@@ -1,0 +1,17 @@
+{
+    "name": "Prospector",
+    "description": "A difficult job, but rewarding nonetheless. Prospectors delve deep into the dark (below y0) in search of rare resources, treasures, or even artefacts.",
+    "powers": [
+        "birthright_origins:classes/prospector/elbow_grease",
+        "birthright_origins:classes/prospector/elbow_grease/exhaustion",
+        "birthright_origins:classes/prospector/elbow_grease/fortune",
+        "birthright_origins:classes/prospector/dark_delver",
+        "birthright_origins:classes/commons/deep_trading_license",
+        "birthright_origins:classes/prospector/vitamin_a",
+        "birthright_origins:classes/commons/disable_arcane_workbenches"
+    ],
+    "icon": {
+        "item": "minecraft:golden_carrot"
+    },
+    "impact": 1
+}

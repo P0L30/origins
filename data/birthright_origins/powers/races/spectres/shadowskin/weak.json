@@ -1,0 +1,12 @@
+{
+    "name": "Weak",
+    "description": "You are missing four hearts.",
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -8
+    },
+    "update_health": true
+}

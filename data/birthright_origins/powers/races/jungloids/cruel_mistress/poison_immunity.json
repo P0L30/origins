@@ -1,0 +1,7 @@
+{
+    "name": "Poison Immunity",
+    "description": "Poison itself has no effect on a Venuvian",
+    "hidden": true,
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:poison"
+}

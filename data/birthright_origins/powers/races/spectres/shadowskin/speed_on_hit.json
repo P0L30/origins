@@ -1,0 +1,10 @@
+{
+    "name": "Speed When Hit",
+    "hidden": true,
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute if entity @s[y=0,dy=-64] run effect give @s minecraft:speed 3 0 true"
+    },
+    "cooldown": 1
+}

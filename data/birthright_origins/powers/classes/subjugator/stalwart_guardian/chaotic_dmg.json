@@ -1,0 +1,15 @@
+{
+    "name": "Chaotic Damage",
+    "description": "Chaotic characters take 50% more damage from your attacks.",
+    "hidden": true,
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:origin",
+        "origin": "birthright_origins:moralities/chaotic",
+        "layer": "birthright_origins:morality"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    }
+}

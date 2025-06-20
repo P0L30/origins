@@ -1,0 +1,12 @@
+{
+    "name": "Horrible Diet",
+    "description": "You have 2 less hearts from your horrific diet of meagre scraps.",
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -4
+    },
+    "update_health": true
+}

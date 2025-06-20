@@ -1,0 +1,20 @@
+{
+    "name": "Crabmen",
+    "description": "Crustaceans are an enigmatic race, as the plethora of Crabmen studiable are all deviants from their god, Pexa'ph'eda, the voice of the waves. The god holds a sort of hivemind over them, forcing most Crabmen to toil and work for several decades in the deepest reaches of the ocean. The ones that somehow break free, and swim closer to the shore, are considered lost to their brothers, and deviants by study.",
+    "powers": [
+        "birthright_origins:races/crabmen/chaotic",
+        "birthright_origins:races/crabmen/chitinous",
+        "birthright_origins:races/crabmen/chitinous_axe_damage",
+        "birthright_origins:races/crabmen/crustacean",
+        "birthright_origins:races/crabmen/crustacean_mining_speed_standing",
+        "birthright_origins:races/crabmen/crustacean_no_sinking",
+        "birthright_origins:races/crabmen/crustacean_swim_speed",
+        "birthright_origins:races/crabmen/crustacean_trident_damage",
+        "birthright_origins:races/crabmen/crustacean_mining_speed_floating",
+        "birthright_origins:races/crabmen/specialised_mandibles"
+    ],
+    "icon": {
+        "item": "kubejs:crabmen_icon"
+    },
+    "impact": 2
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Chitinous",
+    "description": "Crabmen possess an especially thick chitin, that differs in colour person to person. The most common colour is orange, though all shells perform the same, reducing all damage taken by 25%, apart from axes, which deal 25% more.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "minecraft:axes"
+                }
+            }
+        }
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.75
+    }
+}

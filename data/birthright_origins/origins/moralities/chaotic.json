@@ -1,0 +1,14 @@
+{
+    "name": "Chaotic",
+    "description": "You follow the teachings of Chaos and freedom. Your life is your own, and nobody can change or influence that. Those who want to take autonomy away must be destroyed.",
+    "powers": [
+        "birthright_origins:moralities/ethics",
+        "birthright_origins:moralities/chaotic/chaotic",
+        "birthright_origins:moralities/chaotic/tag",
+        "birthright_origins:moralities/chaotic/team"
+    ],
+    "icon": {
+        "item": "minecraft:red_wool"
+    },
+    "impact": 0
+}

@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "Birthright Origins",
+        "id": "birthright_origins",
+        "pack_format": 15,
+        "version": "2.6.0",
+        "authors": [
+            "massacring"
+        ],
+        "description": "Adds Races, Morality and Classes for the Birthright server."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Sorcerer",
+    "description": "Magic is a weapon under-utilised in all aspects of life. It can be the etheral hammer to smite your enemies, the ever soaring arrow to pierce their hearts, or the very thunder that burns their city to the ground.",
+    "powers": [
+        "birthright_origins:classes/sorcerer/arcane_abuser",
+        "birthright_origins:classes/sorcerer/vilified",
+        "birthright_origins:classes/sorcerer/knowledge_is_power"
+    ],
+    "icon": {
+        "item": "irons_spellbooks:cinder_essence"
+    },
+    "impact": 2
+}

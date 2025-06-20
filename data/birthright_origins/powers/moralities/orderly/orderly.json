@@ -1,0 +1,15 @@
+{
+    "name": "Orderly",
+    "description": "You deal half damage to players of Orderly standing.\n\nYou deal double damage to players of Chaotic standing.",
+    "hidden": true,
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:origin",
+        "origin": "birthright_origins:moralities/orderly",
+        "layer": "birthright_origins:morality"
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.5
+    }
+}

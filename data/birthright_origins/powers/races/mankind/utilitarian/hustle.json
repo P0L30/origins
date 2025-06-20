@@ -1,0 +1,21 @@
+{
+    "name": "Hustle",
+    "description": "All humans receive a 15% passive speed bonus when doing laborious tasks, such as mining blocks or commuting from one area to another.",
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 0.15,
+            "name": "Speed Increase"
+        },
+        {
+            "attribute": "minecraft:generic.block_break_speed",
+            "operation": "multiply_total",
+            "value": 0.15,
+            "name": "Haste Increase"
+        }
+    ],
+    "update_health": true
+}

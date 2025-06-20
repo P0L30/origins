@@ -1,0 +1,15 @@
+{
+    "origins": [
+        "birthright_origins:disable_base_origins/arachnid",
+        "birthright_origins:disable_base_origins/avian",
+        "birthright_origins:disable_base_origins/blazeborn",
+        "birthright_origins:disable_base_origins/elytrian",
+        "birthright_origins:disable_base_origins/enderian",
+        "birthright_origins:disable_base_origins/feline",
+        "birthright_origins:disable_base_origins/merling",
+        "birthright_origins:disable_base_origins/phantom",
+        "birthright_origins:disable_base_origins/shulk"
+    ],
+    "enabled": true,
+    "replace": true
+}

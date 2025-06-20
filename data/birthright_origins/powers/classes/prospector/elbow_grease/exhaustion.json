@@ -1,0 +1,15 @@
+{
+    "name": "Exhaustion",
+    "description": "Negates the exhaustion when you break stone blocks.",
+    "hidden": true,
+    "type": "origins:action_on_block_break",
+    "entity_action": {
+        "type": "origins:exhaust",
+        "amount": -0.005
+    },
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "forge:stone"
+    },
+    "only_when_harvested": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Bread",
+    "description": "Comfort is often overlooked when ensuring the maxium amount of good, and so, plain solutions are often picked. When crafting bread, humans get 3 bread instead of the usual 1.",
+    "hidden": true,
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:bread",
+    "result": {
+        "item": "minecraft:bread",
+        "amount": 3
+    }
+}

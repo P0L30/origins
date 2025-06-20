@@ -1,0 +1,15 @@
+{
+    "name": "Mankind",
+    "description": "Often said to be the eldest race still thriving, humanity has a thumb in every proverbial pie. Their reach is wide, their influence powerful, and their conquering skill unrefutable. Their greatest boon by far, however, is their minds - it is extremely rare for a human to settle, rather, they will invent solutions and philosophise a problem or task until it is fully and utterly reduced to it's simplest form. In fact, this psychology is proven by one of their first inventions - fire itself.",
+    "powers": [
+        "birthright_origins:races/mankind/orderly",
+        "birthright_origins:races/mankind/utilitarian",
+        "birthright_origins:races/mankind/ancient_belief",
+        "birthright_origins:races/mankind/utilitarian/hustle",
+        "birthright_origins:races/mankind/utilitarian/bread"
+    ],
+    "icon": {
+        "item": "kubejs:mankind_icon"
+    },
+    "impact": 1
+}

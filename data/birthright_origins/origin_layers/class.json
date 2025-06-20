@@ -1,0 +1,35 @@
+{
+    "order": 10,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "birthright_origins:moralities/chaotic",
+                "layer": "birthright_origins:morality"
+            },
+            "origins": [
+                "birthright_origins:classes/criminal",
+                "birthright_origins:classes/sorcerer",
+                "birthright_origins:classes/sellsword"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "birthright_origins:moralities/orderly",
+                "layer": "birthright_origins:morality"
+            },
+            "origins": [
+                "birthright_origins:classes/arcanist",
+                "birthright_origins:classes/subjugator",
+                "birthright_origins:classes/prospector"
+            ]
+        }
+    ],
+    "enabled": true,
+    "name": "Class",
+    "gui_title": {
+        "choose_origin": "Class",
+        "view_origin": "Class"
+    }
+}

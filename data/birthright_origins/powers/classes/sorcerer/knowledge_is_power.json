@@ -1,0 +1,9 @@
+{
+    "name": "Knowledge is Power",
+    "description": "Unlike your civilised counterpart, your tome is that of an Ironbound one, allowing you to fit more spells within it. Given enough mastery of your craft and progress on your inner journey, you may even come to change again, becoming a Grand Sorcerer, with a specific tome and staff of your choice, to allow even more magicial prowress.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "irons_spellbooks:iron_spell_book",
+        "amount": 1
+    }
+}
